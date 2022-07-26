@@ -1,0 +1,229 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg,#90abe5, #8f78ed);
+  height: 100%;
+  overflow-y:scroll;
+}
+.adHead{
+    color: #40514E;
+    margin-top:-10px;
+    height: 120px;
+    width: 1149px;
+    float: right;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    
+}
+/*#54BAB9*/
+.topic{
+    margin-top:10px;
+    margin-right:10px ;
+    font-weight: 100;
+    font-family: 'Montserrat',sans-serif;
+    color: #f0ebe6;
+}
+.logo1{
+  margin-top: 20px;
+  margin-left: 200px;
+}
+.cateTopic{
+    padding-top: 10px;
+    margin-right: 20px;
+    color: #0d0f0f;
+    font-weight: bold ;
+    font-family: 'Merriweather', serif;
+}
+hr{
+    margin-top: 2px;
+    width : 165px;
+}
+.search_in{
+    width: 35%;
+    margin-top: 10px;
+    margin-left: 380px;
+    border-radius: 40px;
+}
+.search_bu{
+    margin-top: 10px;
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+}
+.bottom-container{
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    float: right;
+    margin-top:500px;
+    width: 100%;
+    position:absolute;
+
+  }
+  .copyright{
+    color: #EAF6F6;
+    font-family: 'Merriweather' serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 20px 0;
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color: #F7F5F2;
+    color: #54BAB9;
+    padding: 7px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    width: 50px;
+    border-radius: 5px;
+    
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: block;
+    float: right;
+    font-weight: bold;
+    margin-top: -35px;
+    margin-right: 100px;
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: #f1f1f1;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #54BAB9;
+    padding: 7px 8px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #39AEA9; color: white;}
+
+  .adminProf{
+      float: right;
+      margin-top: -45px;
+      margin-right: 30px;
+  }
+  .section{
+    right: 0;
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 463px;
+   
+  }
+  .adminimg{
+    
+    margin-left: 40%;
+
+  }
+  .btnadd{
+    padding-top: 7px;
+    margin-right: 100px;
+    float: right;
+  }
+  .btn-group{
+    padding-top: 7px;
+    margin-right: 50px;
+    float: right;
+  }
+  .catetb{
+    margin-top: 85px;
+    margin-left: 75px;
+    margin-right: 75px;
+    height: 350px;
+    overflow-y:scroll;
+  }
+  .container{
+    text-align: left;
+    margin-top: 20px;
+    width: 900px;
+  }
+  .btn-primary{
+    margin-top: 20px;
+    margin-left: 145px;
+    float: left;
+  }
+  .search{
+    float: left;
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 20%;
+    border-radius: 40px;
+  }
+
+
+
+.table{
+    border-spacing: 0px;
+    margin-right: 150px;
+   
+}
+.table td,.table th{
+    padding: .45em;
+    vertical-align: top;
+    text-align: center;
+    border-top: 1px solid var(--border);
+
+}
+
+.thead-dark {
+
+  color: #fff;
+  background-color: black;
+  border-color: #32383e;
+}
+
+.space{
+  margin-right: 10px;
+}
+
+.btn1{
+  font-family:'Montserrat',sans-serif;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  margin-left: 260px;
+  margin-top: -25px;
+}
+.btn2{
+  font-family: 'Montserrat',sans-serif;
+  margin-left: 275px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.sea{
+  margin-left: 610px;
+  margin-top: -40px;
+}
+
